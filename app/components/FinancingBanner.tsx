@@ -14,9 +14,9 @@ export default function FinancingBanner() {
           </p>
         </div>
         <div className="ml-8">
-          <button className="bg-[#675CE7] hover:bg-[#6b6ee0] text-white font-bold py-4 px-8 uppercase tracking-wide transition-colors">
+          <a href='https://app.gethearth.com/partners/jolawt-international-inc/jonathan/apply' className="bg-[#675CE7] hover:bg-[#6b6ee0] text-white font-bold py-4 px-8 uppercase tracking-wide transition-colors">
             Apply for Financing
-          </button>
+          </a>
         </div>
       </div>
 

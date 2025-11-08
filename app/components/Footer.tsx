@@ -48,7 +48,7 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-gray-900 mb-4">Quick Links</h3>
             <ul className="space-y-3 text-sm text-gray-700">
-              <li><a href="#financing" className="hover:text-[#8b7dff] transition-colors">Financing</a></li>
+              <li><a href="https://app.gethearth.com/partners/jolawt-international-inc/jonathan/apply" className="hover:text-[#8b7dff] transition-colors">Financing</a></li>
               <li><a href="#why-it-works" className="hover:text-[#8b7dff] transition-colors">Why It Works</a></li>
               <li><a href="#services" className="hover:text-[#8b7dff] transition-colors">Services</a></li>
               <li><a href="#science" className="hover:text-[#8b7dff] transition-colors">The Science</a></li>

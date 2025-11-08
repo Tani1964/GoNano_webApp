@@ -15,7 +15,7 @@ const HomeHero = () => {
             <BookEstimateButton/>
         </div>
         <div className='w-full bg-[#675CE7] px-2 py-2 flex justify-center align-middle items-center my-2 md:mb-20'>
-            <a href="#" className='text-lg underline text-center'>** Pre-qualify for project financing **</a>
+            <a href="https://app.gethearth.com/partners/jolawt-international-inc/jonathan/apply" className='text-lg underline text-center'>** Pre-qualify for project financing **</a>
         </div>
       <div className=" mx-auto px-4">
         {/* Main Heading */}
