@@ -28,7 +28,7 @@ const ScienceSection = () => {
             THE SCIENCE BEHIND THE SHIELD
           </h2>
           <p className="text-base md:text-lg text-white max-w-5xl mx-auto leading-relaxed mb-4">
-            PF-NANO treatments work at the molecular level to create an invisible
+            GoNano treatments work at the molecular level to create an invisible
             shield that protects your surfaces from water, UV rays, and decay.
             Instead of forming a coating on top, our hydrophobic solution
             penetrates and bonds with the material itself—so you get
@@ -49,12 +49,12 @@ const ScienceSection = () => {
             </h3>
             <p className="text-sm md:text-base leading-relaxed">
               Traditional sealants use large particles that sit on the surface,
-              forming a visible film that wears off over time. PF-NANO&apos;s
+              forming a visible film that wears off over time. GoNano&apos;s
               nano-scale particles penetrate deep into material pores—sealing
               from the inside out.
             </p>
             <p className="text-sm md:text-base leading-relaxed font-semibold">
-              PF-NANO uses true nanotechnology to bond within surface pores.
+              GoNano uses true nanotechnology to bond within surface pores.
             </p>
             <p className="text-sm md:text-base leading-relaxed">
               Other sealers (acrylics, silicone, blends) create bulky surface
@@ -121,7 +121,7 @@ const ScienceSection = () => {
               Microscopic Proof - Molecular Transformation
             </h3>
             <p className="text-sm md:text-base leading-relaxed">
-              At the microscopic level, PF-NANO doesn&apos;t just coat the surface—it
+              At the microscopic level, GoNano doesn&apos;t just coat the surface—it
               permanently modifies it.
             </p>
             <p className="text-sm md:text-base leading-relaxed">
@@ -129,7 +129,7 @@ const ScienceSection = () => {
               shingles have exposed pores and irregular texture.
             </p>
             <p className="text-sm md:text-base leading-relaxed">
-              In the <span className="font-bold">during</span> phase, the PF-NANO
+              In the <span className="font-bold">during</span> phase, the GoNano
               nanotechnology reacts inside the material.
             </p>
             <p className="text-sm md:text-base leading-relaxed">

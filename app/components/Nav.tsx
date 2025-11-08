@@ -20,25 +20,25 @@ const Nav = () => {
       <nav className="fixed mx-5 mt-4 top-0 left-0 right-0 z-50 bg-[#1D1E40] text-white">
         <div className="mx-4 h-20 flex items-center justify-between">
           {/* Logo */}
-          {/* <div className="flex items-center gap-2">
-            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <div className="flex items-center ">
+            {/* <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
               <circle cx="12" cy="12" r="4" fill="#8b7dff" />
               <circle cx="28" cy="12" r="4" fill="#8b7dff" />
               <circle cx="12" cy="28" r="4" fill="#8b7dff" />
               <circle cx="28" cy="28" r="4" fill="#8b7dff" />
               <path d="M12 16 L12 24" stroke="#8b7dff" strokeWidth="2" />
               <path d="M28 16 L28 24" stroke="#8b7dff" strokeWidth="2" />
-            </svg>
-            <span className="text-2xl font-bold">gonano</span>
-          </div> */}
-          <Image
-            src={Logo}
-            alt="Water beading on treated surface"
-            className=" rounded-lg "
-            width={150}
-            height={70}
-            priority
-          />
+            </svg> */}
+            <Image
+              src={Logo}
+              alt="Water beading on treated surface"
+              className=" rounded-lg "
+              width={150}
+              height={70}
+              priority
+            />
+            <span className="text-3xl font-bold">PF-Nano</span>
+          </div>
 
           {/* Desktop Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
@@ -93,25 +93,25 @@ const Nav = () => {
           <div className="flex flex-col h-full">
             {/* Mobile Menu Header */}
             <div className="mx-4 h-20 flex items-center justify-between">
-              {/* <div className="flex items-center gap-2">
-                <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <div className="flex flex-col items-center align-middle justify-center p-4 gap-2 w-full">
+                {/* <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
                   <circle cx="12" cy="12" r="4" fill="#8b7dff" />
                   <circle cx="28" cy="12" r="4" fill="#8b7dff" />
                   <circle cx="12" cy="28" r="4" fill="#8b7dff" />
                   <circle cx="28" cy="28" r="4" fill="#8b7dff" />
                   <path d="M12 16 L12 24" stroke="#8b7dff" strokeWidth="2" />
                   <path d="M28 16 L28 24" stroke="#8b7dff" strokeWidth="2" />
-                </svg>
-                <span className="text-2xl font-bold text-white">gonano</span>
-              </div> */}
-              <Image
-                src={Logo}
-                alt="Water beading on treated surface"
-                className=" rounded-lg shadow-lg"
-                width={250}
-                height={150}
-                priority
-              />
+                </svg> */}
+                <Image
+                  src={Logo}
+                  alt="Water beading on treated surface"
+                  className=" rounded-lg "
+                  width={150}
+                  height={150}
+                  priority
+                />
+                {/* <span className="text-2xl font-bold text-white">PF-Nano</span> */}
+              </div>
               <button
                 onClick={toggleMenu}
                 className="p-2 text-white"

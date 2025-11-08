@@ -19,7 +19,7 @@ const WhyGoNanoWorks = () => {
             (When Coatings Don&apos;t)
           </p>
           <p className="text-base md:text-lg text-gray-800 max-w-4xl mx-auto leading-relaxed">
-            Most sealers sit on top of the surface, wear away fast, and trap moisture underneath. PF-NANO bonds below the surface to create long-lasting, invisible protection from within.
+            Most sealers sit on top of the surface, wear away fast, and trap moisture underneath. GoNano bonds below the surface to create long-lasting, invisible protection from within.
           </p>
         </div>
 
@@ -56,7 +56,7 @@ const WhyGoNanoWorks = () => {
                 <h3 className="text-2xl font-bold text-[#2a2449]">UV-Stable & Breathable</h3>
               </div>
               <p className="text-base text-gray-800 leading-relaxed">
-                Unlike coatings that yellow or peel, PF-NANO stays invisible and lets moisture vapor escape—so surfaces stay healthy and natural-looking.
+                Unlike coatings that yellow or peel, GoNano stays invisible and lets moisture vapor escape—so surfaces stay healthy and natural-looking.
               </p>
             </div>
           </div>
@@ -73,7 +73,7 @@ const WhyGoNanoWorks = () => {
               />
 
               <p className="text-sm text-center text-gray-700 mt-4 italic">
-                &quot;Water beads and rolls off instantly thanks to PF-NANO&apos;s molecular bonding.&quot;
+                &quot;Water beads and rolls off instantly thanks to GoNano&apos;s molecular bonding.&quot;
               </p>
             </div>
           </div>
@@ -110,7 +110,7 @@ const WhyGoNanoWorks = () => {
               <h3 className="text-xl font-bold text-[#2a2449]">UV-Stable & Breathable</h3>
             </div>
             <p className="text-sm text-gray-800 leading-relaxed px-4">
-              Unlike coatings that yellow or peel, PF-NANO stays invisible and lets moisture vapor escape—so surfaces stay healthy and natural-looking.
+              Unlike coatings that yellow or peel, GoNano stays invisible and lets moisture vapor escape—so surfaces stay healthy and natural-looking.
             </p>
             <Image
                 src={whygogonaworks}
@@ -122,7 +122,7 @@ const WhyGoNanoWorks = () => {
               />
 
             <p className="text-xs text-center text-gray-700 mt-3 italic">
-              &quot;Water beads and rolls off instantly thanks to PF-NANO&apos;s molecular bonding.&quot;
+              &quot;Water beads and rolls off instantly thanks to GoNano&apos;s molecular bonding.&quot;
             </p>
           </div>
         </div>

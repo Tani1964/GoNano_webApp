@@ -36,7 +36,7 @@ const HowItWorks = () => {
     {
       number: "02",
       title: "Treat & Protect",
-      description: "Our technician applies the PF-NANO treatment in one clean visit.",
+      description: "Our technician applies the GoNano treatment in one clean visit.",
       benefits: "No coatings, no mess, and no disruption."
     },
     {

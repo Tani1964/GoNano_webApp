@@ -145,7 +145,7 @@ const TestimonialsSection = () => {
       id: 1,
       videoUrl: "https://content.apisystem.tech/hls/medias/wbwKVz9CXZMVcQrXeB0S/media/transcoded_videos/cts-2137a61315ea3b6c_,360,480,720,1080,1440,p.mp4.urlset/master.m3u8",
       title: "No mess, real protection",
-      quote: "We love that PF-NANO didn't change how our roof looked—but still gave us real protection. No mess, no smell, just clean work and great service.",
+      quote: "We love that GoNano didn't change how our roof looked—but still gave us real protection. No mess, no smell, just clean work and great service.",
       author: "Rich & Denise",
       rating: 5
     },
@@ -153,7 +153,7 @@ const TestimonialsSection = () => {
       id: 2,
       videoUrl: "https://content.apisystem.tech/hls/medias/wbwKVz9CXZMVcQrXeB0S/media/transcoded_videos/cts-a35f983d39f4ada4_,360,480,720,1080,1440,p.mp4.urlset/master.m3u8",
       title: "Impressed by the science.",
-      quote: "The PF-NANO team was great. I appreciated how they explained the science behind it, and the fact that it doesn't leave a film on the roof. I'd recommend them to anyone.",
+      quote: "The GoNano team was great. I appreciated how they explained the science behind it, and the fact that it doesn't leave a film on the roof. I'd recommend them to anyone.",
       author: "David Flowers",
       rating: 5
     },
@@ -161,7 +161,7 @@ const TestimonialsSection = () => {
       id: 3,
       videoUrl: "https://content.apisystem.tech/hls/medias/wbwKVz9CXZMVcQrXeB0S/media/transcoded_videos/cts-5b7d7d98e4c8c311_,360,480,720,1080,1440,p.mp4.urlset/master.m3u8",
       title: "Skeptic now convinced",
-      quote: "I was honestly skeptical at first, but the PF-NANO team was professional, showed me how it worked, and the results were exactly what they said they'd be. I'm impressed and would absolutely recommend them.",
+      quote: "I was honestly skeptical at first, but the GoNano team was professional, showed me how it worked, and the results were exactly what they said they'd be. I'm impressed and would absolutely recommend them.",
       author: "Carla",
       rating: 5
     },
@@ -169,7 +169,7 @@ const TestimonialsSection = () => {
     //   id: 4,
     //   videoUrl: "https://youtu.be/iqO8XKxVcfs",
     //   title: "Skeptic now convinced",
-    //   quote: "I was honestly skeptical at first, but the PF-NANO team was professional, showed me how it worked, and the results were exactly what they said they'd be. I'm impressed and would absolutely recommend them.",
+    //   quote: "I was honestly skeptical at first, but the GoNano team was professional, showed me how it worked, and the results were exactly what they said they'd be. I'm impressed and would absolutely recommend them.",
     //   author: "Carla",
     //   rating: 5
     // },
@@ -177,7 +177,7 @@ const TestimonialsSection = () => {
     //   id: 5,
     //   videoUrl: "https://youtube.com/shorts/jLWVViPlNNY",
     //   title: "Skeptic now convinced",
-    //   quote: "I was honestly skeptical at first, but the PF-NANO team was professional, showed me how it worked, and the results were exactly what they said they'd be. I'm impressed and would absolutely recommend them.",
+    //   quote: "I was honestly skeptical at first, but the GoNano team was professional, showed me how it worked, and the results were exactly what they said they'd be. I'm impressed and would absolutely recommend them.",
     //   author: "Carla",
     //   rating: 5
     // }

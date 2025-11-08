@@ -119,7 +119,7 @@ const ComparisonTable = () => {
             COMPARE ROOF PROTECTION OPTIONS
           </h2>
           <p className="text-base md:text-lg text-gray-700 max-w-5xl mx-auto leading-relaxed">
-            Not all roof treatments are created equal. See how our PF-NANO-powered options stack up against traditional solutions—and choose the right protection based on your roof&apos;s age and condition.
+            Not all roof treatments are created equal. See how our GoNano-powered options stack up against traditional solutions—and choose the right protection based on your roof&apos;s age and condition.
           </p>
         </div>
 
@@ -176,7 +176,7 @@ const ComparisonTable = () => {
         {/* Footer Note */}
         <div className="text-center text-xs text-gray-600 mb-8">
           <p>* Weather resistance includes anti-moisture and ice damming protection.</p>
-          <p>Source: PF-NANO Inc. (2025)</p>
+          <p>Source: GoNano Inc. (2025)</p>
         </div>
 
         {/* CTA Button */}

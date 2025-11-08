@@ -10,7 +10,7 @@ export default function ServicesSection() {
       icon: "🏠",
       title: "ROOF PROTECTION",
       subtitle: "Asphalt shingles & composite roofs",
-      description: "Protect asphalt shingles with PF-NANO treatments that resist hail, wind, and UV—adding up to 15 years of performance without replacing your roof.",
+      description: "Protect asphalt shingles with GoNano treatments that resist hail, wind, and UV—adding up to 15 years of performance without replacing your roof.",
       videoURL: "https://youtu.be/JGoEf2JxODQ",
       videoBanner: "ROOF WILL NOW LAST ANOTHER 10-15 YEARS"
     },
