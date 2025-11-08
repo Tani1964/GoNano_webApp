@@ -57,7 +57,7 @@ export function QuoteRequestOverlay() {
         {/* Form content */}
         <div className="p-6 sm:p-8 md:p-10">
           <h2 className="text-2xl sm:text-3xl font-bold text-center text-indigo-600 mb-3">
-            GoNano Austin Quote Request
+            PF-NANO Pflugerville, Texas. Quote Request
           </h2>
           <p className="text-center text-gray-600 mb-8 text-sm sm:text-base">
             Help us get started by filling in a few details—so we can provide you with an accurate, no-obligation estimate for your property.
@@ -259,7 +259,7 @@ export function QuoteRequestOverlay() {
                   className="mt-1 w-4 h-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 cursor-pointer"
                 />
                 <span className="text-sm text-gray-600">
-                  By checking this box, I consent to receive transactional messages from <strong>GoNano Austin</strong>, related to my account, appointment reminders, or services I have requested. Message frequency may vary. Message & Data rates may apply. Reply HELP for help or STOP to opt-out.
+                  By checking this box, I consent to receive transactional messages from <strong>PF-NANO Pflugerville, Texas.</strong>, related to my account, appointment reminders, or services I have requested. Message frequency may vary. Message & Data rates may apply. Reply HELP for help or STOP to opt-out.
                 </span>
               </label>
 
@@ -272,7 +272,7 @@ export function QuoteRequestOverlay() {
                   className="mt-1 w-4 h-4 text-indigo-600 border-gray-300 rounded focus:ring-indigo-500 cursor-pointer"
                 />
                 <span className="text-sm text-gray-600">
-                  By checking this box, I consent to receive marketing and promotional messages from <strong>GoNano Austin</strong>, including special offers, discounts, and new product updates. Message frequency may vary. Message & Data rates may apply. Reply HELP for help or STOP to opt-out.
+                  By checking this box, I consent to receive marketing and promotional messages from <strong>PF-NANO Pflugerville, Texas.</strong>, including special offers, discounts, and new product updates. Message frequency may vary. Message & Data rates may apply. Reply HELP for help or STOP to opt-out.
                 </span>
               </label>
             </div>

@@ -23,7 +23,7 @@ const HomeHero = () => {
           <h1 className="text-2xl md:text-3xl lg:text-6xl font-extrabold mb-6 leading-18 ">
             MOLECULAR PROTECTION FOR ROOFS,
             <br />
-            DRIVEWAYS, AND DECKS
+            DRIVEWAYS, AND CONCRETE DECKS.
           </h1>
           <p className="text-base md:text-lg lg:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
             Invisible nanotechnology treatments that help roofs, and concrete repel water, resist
@@ -34,7 +34,7 @@ const HomeHero = () => {
         {/* Video Section */}
         <div className="mb-8 md:mb-12 max-w-4xl mx-auto">
           <VideoPlayer 
-            url="https://www.youtube.com/watch?v=EmQv_W83yqE"
+            url="https://youtu.be/kcV7PEeI94M"
             className="aspect-video"
           />
         </div>
@@ -61,7 +61,7 @@ const HomeHero = () => {
             <div className="flex items-center justify-center w-12 h-12 bg-[#8b7dff] rounded-full">
               <MapPin size={24} />
             </div>
-            <h3 className="font-bold text-lg md:text-xl">LOCALLY OWNED IN AUSTIN</h3>
+            <h3 className="font-bold text-lg md:text-xl">LOCALLY OWNED IN PFLUGERVILLE, TEXAS</h3>
           </div>
 
           {/* Feature 3 */}

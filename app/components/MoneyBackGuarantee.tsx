@@ -28,7 +28,7 @@ export default function MoneyBackGuarantee() {
           
           <div className="relative max-w-2xl mx-auto mb-8">
                       <VideoPlayer
-                        url="https://www.youtube.com/watch?v=mFqYl0NQ7kw"
+                        url="https://youtu.be/CCJAGrEuO2Y"
                         className="aspect-video"
                       />
           
@@ -62,7 +62,7 @@ export default function MoneyBackGuarantee() {
         
         <div className="relative mb-8">
                     <VideoPlayer 
-                      url="https://www.youtube.com/watch?v=mFqYl0NQ7kw"
+                      url="https://youtu.be/CCJAGrEuO2Y"
                       className="aspect-video"
                     />
           

@@ -34,9 +34,9 @@ const Nav = () => {
           <Image
             src={Logo}
             alt="Water beading on treated surface"
-            className=" rounded-lg shadow-lg"
-            width={250}
-            height={150}
+            className=" rounded-lg "
+            width={150}
+            height={70}
             priority
           />
 

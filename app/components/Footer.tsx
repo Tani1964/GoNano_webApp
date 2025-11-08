@@ -84,7 +84,7 @@ const Footer = () => {
               <div className="mt-4">
                 <p className="font-semibold text-gray-900 mb-2">Serving:</p>
                 <ul className="space-y-1 text-gray-700">
-                  <li>• Austin</li>
+                  <li>• Pflugerville, Texas.</li>
                   <li>• Dripping Springs</li>
                   <li>• Kyle</li>
                   <li>• Buda</li>
@@ -170,7 +170,7 @@ const Footer = () => {
               <div className="mt-4">
                 <p className="font-semibold text-gray-900 mb-2">Serving:</p>
                 <ul className="space-y-1 text-gray-700">
-                  <li>• Austin</li>
+                  <li>• Pflugerville, Texas.</li>
                   <li>• Dripping Springs</li>
                   <li>• Kyle</li>
                   <li>• Buda</li>
@@ -186,10 +186,10 @@ const Footer = () => {
         <div className="border-t border-gray-200 pt-8">
           <div className="text-center space-y-4">
             <p className="text-xs text-gray-600">
-              Copyright 2025. GoNano Austin. All Rights Reserved.
+              Copyright 2025. PF-NANO Pflugerville, Texas.. All Rights Reserved.
             </p>
             <p className="text-xs text-gray-600">
-              GoNano Austin is an independent authorized reseller and installer of GoNano Nanotechnology
+              PF-NANO Pflugerville, Texas. is an independent authorized reseller and installer of PF-NANO Nanotechnology
             </p>
             <div className="flex items-center justify-center gap-2 text-xs">
               <a href="#privacy" className="text-[#8b7dff] hover:text-[#7a6bef] transition-colors">Privacy Policy</a>
