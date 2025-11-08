@@ -116,7 +116,7 @@ const ComparisonTable = () => {
             COMPARE ROOF PROTECTION OPTIONS
           </h2>
           <p className="text-base md:text-lg text-gray-700 max-w-5xl mx-auto leading-relaxed">
-            Not all roof treatments are created equal. See how our GoNano-powered options stack up against traditional solutions—and choose the right protection based on your roof's age and condition.
+            Not all roof treatments are created equal. See how our GoNano-powered options stack up against traditional solutions—and choose the right protection based on your roof&apos;s age and condition.
           </p>
         </div>
 

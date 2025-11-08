@@ -16,11 +16,11 @@ export default function MoneyBackGuarantee() {
           </h2>
           
           <p className="text-center text-lg mb-6 max-w-3xl mx-auto">
-            Your roof, concrete, and wood surfaces are too important for guesswork.
+            Your roof, and concrete surfaces are too important for guesswork.
           </p>
           
           <p className="text-center text-base mb-12 max-w-4xl mx-auto leading-relaxed">
-            That's why we offer a 100% money-back guarantee. If our treatment fails to deliver the protection we promised, you get your money back. No red tape. No excuses. Just accountability.
+            That&apos;s why we offer a 100% money-back guarantee. If our treatment fails to deliver the protection we promised, you get your money back. No red tape. No excuses. Just accountability.
           </p>
           
           <div className="relative max-w-2xl mx-auto mb-8">
@@ -54,7 +54,7 @@ export default function MoneyBackGuarantee() {
         </p>
         
         <p className="text-center text-sm mb-10 leading-relaxed">
-          That's why we offer a 100% money-back guarantee. If our treatment fails to deliver the protection we promised, you get your money back. No red tape. No excuses. Just accountability.
+          That&apos;s why we offer a 100% money-back guarantee. If our treatment fails to deliver the protection we promised, you get your money back. No red tape. No excuses. Just accountability.
         </p>
         
         <div className="relative mb-8">

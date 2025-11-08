@@ -3,7 +3,7 @@ import React from 'react';
 import BookEstimateButton from './BookEstimateButton';
 
 // Reason Item Component
-export const ReasonItem = ({ title, description }) => {
+export const ReasonItem = ({ title, description }:{title:string, description: string}) => {
   return (
     <div className="flex gap-3 md:gap-4">
       <CheckCircle className="text-[#675CE7] flex-shrink-0 mt-1" size={24} />
@@ -98,7 +98,7 @@ const WhyWeDoSection = () => {
         {/* Bottom Section */}
         <div className="text-center space-y-6">
           <p className="text-lg md:text-xl font-semibold text-gray-900 max-w-3xl mx-auto leading-relaxed">
-            That's why we exist—to help protect your home before damage starts, not after.
+            That&apos;s why we exist—to help protect your home before damage starts, not after.
           </p>
           <BookEstimateButton/>
         </div>

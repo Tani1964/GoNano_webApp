@@ -6,8 +6,8 @@ import { FAQItem } from './FaqItem';
 type FAQItemProps = {
   question: string;
   answer: string;
-  isOpen: boolean;
-  onToggle: () => void;
+  isOpen?: boolean;
+  onToggle?: () => void;
 };
 
 type FAQSubsectionProps = {
