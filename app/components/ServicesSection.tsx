@@ -1,7 +1,10 @@
+"use client";
 import React from 'react';
+import { useEstimate } from '../contexts/EstimateContext';
 import { VideoPlayer } from './Video';
 
 export default function ServicesSection() {
+  const { setOpenEstimate } = useEstimate();
   const services = [
     {
       icon: "🏠",
@@ -32,7 +35,7 @@ export default function ServicesSection() {
   ];
 
   return (
-    <div className="w-full bg-gray-100">
+    <div id='services' className="w-full bg-gray-100">
       {/* Desktop Layout */}
       <div className="hidden md:block px-8 lg:px-16 py-16">
         <div className="max-w-7xl mx-auto">
@@ -67,7 +70,7 @@ export default function ServicesSection() {
                   <p className="text-[#1a1d3a] text-base mb-6 leading-relaxed">
                     {service.description}
                   </p>
-                  <button className="bg-[#675CE7] hover:bg-[#5a5ee5] text-white font-bold py-3 px-8 uppercase tracking-wide transition-colors text-sm">
+                  <button  onClick={() => setOpenEstimate(true)} className="bg-[#675CE7] hover:bg-[#5a5ee5] text-white font-bold py-3 px-8 uppercase tracking-wide transition-colors text-sm">
                     Get a Free Custom Quote
                   </button>
                 </div>
@@ -109,7 +112,7 @@ export default function ServicesSection() {
               <p className="text-[#1a1d3a] text-sm mb-6 leading-relaxed">
                 {service.description}
               </p>
-              <button className="bg-[#675CE7] hover:bg-[#5a5ee5] text-white font-bold py-3 px-6 uppercase tracking-wide transition-colors text-sm w-full">
+              <button onClick={() => setOpenEstimate(true)} className="bg-[#675CE7] hover:bg-[#5a5ee5] text-white font-bold py-3 px-6 uppercase tracking-wide transition-colors text-sm w-full">
                 Get a Free Custom Quote
               </button>
             </div>

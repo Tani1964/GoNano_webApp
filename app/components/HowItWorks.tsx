@@ -1,5 +1,7 @@
+"use client";
 import { Calendar } from 'lucide-react';
 import React from 'react';
+import { useEstimate } from '../contexts/EstimateContext';
 
 // Process Step Card Component
 export const ProcessStepCard = ({ number, title, description, benefits }:{ number:string, title:string, description:string, benefits:string }) => {
@@ -23,6 +25,7 @@ export const ProcessStepCard = ({ number, title, description, benefits }:{ numbe
 
 // Main How It Works Component
 const HowItWorks = () => {
+  const { setOpenEstimate } = useEstimate();
   const steps = [
     {
       number: "01",
@@ -88,7 +91,7 @@ const HowItWorks = () => {
           <h3 className="text-2xl md:text-3xl font-bold text-[#2a2449]">
             Molecular protection, made simple.
           </h3>
-          <button className="bg-[#675CE7] hover:bg-[#6b5dff] text-white font-bold px-8 md:px-12 py-4 rounded text-base md:text-lg transition-colors inline-flex items-center gap-2">
+          <button onClick={() => setOpenEstimate(true)} className="bg-[#675CE7] hover:bg-[#6b5dff] text-white font-bold px-8 md:px-12 py-4 rounded text-base md:text-lg transition-colors inline-flex items-center gap-2">
             <Calendar size={20} />
             BOOK YOUR FREE INSPECTION
           </button>

@@ -1,11 +1,14 @@
+"use client";
 import whygogonaworks from "@/public/images/whygogonaworks.png";
 import { Calendar, Droplet, Sun } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react';
+import { useEstimate } from "../contexts/EstimateContext";
 
 const WhyGoNanoWorks = () => {
+  const { setOpenEstimate } = useEstimate();
   return (
-    <section className="bg-[#DBE2E9] py-12 md:py-20 px-4 w-full">
+    <section id="why-it-works" className="bg-[#DBE2E9] py-12 md:py-20 px-4 w-full">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">
@@ -13,7 +16,7 @@ const WhyGoNanoWorks = () => {
             WHY GONANO WORKS
           </h2>
           <p className="text-lg md:text-xl font-semibold text-[#2a2449] mb-4">
-            (When Coatings Don't)
+            (When Coatings Don&apos;t)
           </p>
           <p className="text-base md:text-lg text-gray-800 max-w-4xl mx-auto leading-relaxed">
             Most sealers sit on top of the surface, wear away fast, and trap moisture underneath. GoNano bonds below the surface to create long-lasting, invisible protection from within.
@@ -70,7 +73,7 @@ const WhyGoNanoWorks = () => {
               />
 
               <p className="text-sm text-center text-gray-700 mt-4 italic">
-                "Water beads and rolls off instantly thanks to GoNano's molecular bonding."
+                &quot;Water beads and rolls off instantly thanks to GoNano&apos;s molecular bonding.&quot;
               </p>
             </div>
           </div>
@@ -119,7 +122,7 @@ const WhyGoNanoWorks = () => {
               />
 
             <p className="text-xs text-center text-gray-700 mt-3 italic">
-              "Water beads and rolls off instantly thanks to GoNano's molecular bonding."
+              &quot;Water beads and rolls off instantly thanks to GoNano&apos;s molecular bonding.&quot;
             </p>
           </div>
         </div>
@@ -127,9 +130,9 @@ const WhyGoNanoWorks = () => {
         {/* Bottom Quote and CTA */}
         <div className="text-center space-y-6">
           <h3 className="text-2xl md:text-3xl font-bold text-[#2a2449]">
-            "We don't coat—we treat."
+            &quot;We don&apos;t coat—we treat.&quot;
           </h3>
-          <button className="bg-[#675CE7] hover:bg-[#7a6bef] text-white font-bold px-8 md:px-12 py-4 rounded text-base md:text-lg transition-colors inline-flex items-center gap-2">
+          <button  onClick={() => setOpenEstimate(true)} className="bg-[#675CE7] hover:bg-[#7a6bef] text-white font-bold px-8 md:px-12 py-4 rounded text-base md:text-lg transition-colors inline-flex items-center gap-2">
             <Calendar size={20} />
             BOOK YOUR FREE INSPECTION
           </button>

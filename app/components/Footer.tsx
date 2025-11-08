@@ -1,7 +1,12 @@
+"use client";
+import Logo from "@/public/images/logo2.png";
 import { Facebook, Instagram, Linkedin, Mail, Phone, Youtube } from 'lucide-react';
+import Image from 'next/image';
 import React from 'react';
+import { useEstimate } from '../contexts/EstimateContext';
 
 const Footer = () => {
+  const { setOpenEstimate } = useEstimate();
   return (
     <footer className="bg-gray-50 pt-12 pb-8 px-5">
       <div className="max-w-7xl mx-auto">
@@ -9,7 +14,7 @@ const Footer = () => {
         <div className="hidden md:grid md:grid-cols-4 gap-8 mb-12">
           {/* Column 1 - Brand & Description */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2 mb-4">
+            {/* <div className="flex items-center gap-2 mb-4">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
                 <circle cx="12" cy="12" r="4" fill="#8b7dff" />
                 <circle cx="28" cy="12" r="4" fill="#8b7dff" />
@@ -19,14 +24,22 @@ const Footer = () => {
                 <path d="M28 16 L28 24" stroke="#8b7dff" strokeWidth="2" />
               </svg>
               <span className="text-2xl font-bold text-gray-900">gonano</span>
-            </div>
+            </div> */}
+            <Image
+                src={Logo}
+                alt="Water beading on treated surface"
+                className=" rounded-lg "
+                width={250}
+                height={150}
+                priority
+              />
             <p className="text-sm text-gray-700 leading-relaxed">
               Molecular-level protection for roofs, wood, and concrete. Invisible nanotech treatments that extend the life of your surfaces—without coatings, mess, or disruption.
             </p>
             <a href="#how-it-works" className="inline-flex items-center text-sm text-gray-900 hover:text-[#8b7dff] transition-colors">
               Learn how it works <span className="ml-1">→</span>
             </a>
-            <button className="bg-[#675CE7] hover:bg-[#7a6bef] text-white font-semibold px-8 py-3 rounded transition-colors mt-4">
+            <button onClick={() => setOpenEstimate(true)}  className="bg-[#675CE7] hover:bg-[#7a6bef] text-white font-semibold px-8 py-3 rounded transition-colors mt-4">
               GET A QUOTE
             </button>
           </div>
@@ -86,8 +99,8 @@ const Footer = () => {
         {/* Mobile Layout */}
         <div className="md:hidden space-y-8 mb-8">
           {/* Brand & Description */}
-          <div className="text-center space-y-4">
-            <div className="flex items-center justify-center gap-2 mb-4">
+          <div className="flex flex-col text-center justify-center align-middle space-y-4">
+            {/* <div className="flex items-center justify-center gap-2 mb-4">
               <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
                 <circle cx="12" cy="12" r="4" fill="#8b7dff" />
                 <circle cx="28" cy="12" r="4" fill="#8b7dff" />
@@ -97,7 +110,15 @@ const Footer = () => {
                 <path d="M28 16 L28 24" stroke="#8b7dff" strokeWidth="2" />
               </svg>
               <span className="text-2xl font-bold text-gray-900">gonano</span>
-            </div>
+            </div> */}
+            <Image
+                src={Logo}
+                alt="Water beading on treated surface"
+                className=" "
+                width={250}
+                height={150}
+                priority
+              />
             <p className="text-sm text-gray-700 leading-relaxed px-4">
               Molecular-level protection for roofs, wood, and concrete. Invisible nanotech treatments that extend the life of your surfaces—without coatings, mess, or disruption.
             </p>

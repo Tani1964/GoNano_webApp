@@ -1,7 +1,10 @@
+"use client";
 import React from 'react';
+import { useEstimate } from '../contexts/EstimateContext';
 import { VideoPlayer } from './Video';
 
 export default function MoneyBackGuarantee() {
+  const { setOpenEstimate } = useEstimate();
   return (
     <div className="w-full bg-[#8583F2] text-[#1a1d3a]">
       {/* Desktop Layout */}
@@ -32,7 +35,7 @@ export default function MoneyBackGuarantee() {
           </div>
           
           <div className="text-center">
-            <button className="bg-[#675CE7] hover:bg-[#5a5ee5] text-white font-bold py-4 px-10 uppercase tracking-wide transition-colors text-sm">
+            <button onClick={() => setOpenEstimate(true)} className="bg-[#675CE7] hover:bg-[#5a5ee5] text-white font-bold py-4 px-10 uppercase tracking-wide transition-colors text-sm">
               Get a Free Quote with Confidence
             </button>
           </div>
@@ -66,7 +69,7 @@ export default function MoneyBackGuarantee() {
         </div>
         
         <div className="text-center">
-          <button className="bg-[#675CE7] hover:bg-[#5a5ee5] text-white font-bold py-4 px-8 uppercase tracking-wide transition-colors text-sm w-full">
+          <button onClick={() => setOpenEstimate(true)} className="bg-[#675CE7] hover:bg-[#5a5ee5] text-white font-bold py-4 px-8 uppercase tracking-wide transition-colors text-sm w-full">
             Get a Free Quote with Confidence
           </button>
         </div>

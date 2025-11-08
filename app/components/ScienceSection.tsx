@@ -164,7 +164,7 @@ const ScienceSection = () => {
       </div>
       {/* Science Benefits Bar */}
       <div className=" py-6 mb-12  w-full">
-        <div className="flex items-center bg-[#7b6dff] px-12 justify-center gap-3">
+        <div className="flex items-center bg-[#7b6dff] px-12  py-6 justify-center gap-3">
           <Check className="text-white" size={32} />
           <h3 className="text-2xl md:text- 3xl font-bold text-white">
             Science Benefits
@@ -192,9 +192,9 @@ const ScienceSection = () => {
 
         {/* CTA Button */}
         <div className="text-center">
-          <button className="bg-[#7b6dff] hover:bg-[#6b5dff] text-white font-bold px-8 md:px-12 py-4 rounded text-base md:text-lg transition-colors">
+          <a href="#testimonials"  className="bg-[#7b6dff] hover:bg-[#6b5dff] text-white font-bold px-8 md:px-12 py-4 rounded text-base md:text-lg transition-colors">
             SEE IT IN ACTION
-          </button>
+          </a>
         </div>
       </div>
     </section>

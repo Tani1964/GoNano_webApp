@@ -126,7 +126,7 @@ const VideoModal = ({ videoUrl, isOpen, onClose }: { videoUrl: string | null, is
         {/* <div className="bg-black rounded-lg overflow-hidden aspect-video"> */}
           <div className="mb-8 md:mb-12 max-w-4xl mx-auto">
                     <VideoPlayer
-                      url="https://www.youtube.com/watch?v=EmQv_W83yqE"
+                      url={videoUrl || ""}
                       className="aspect-video"
                     />
                   </div>
@@ -143,7 +143,7 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       id: 1,
-      videoUrl: "https://example.com/video1.mp4",
+      videoUrl: "https://content.apisystem.tech/hls/medias/wbwKVz9CXZMVcQrXeB0S/media/transcoded_videos/cts-2137a61315ea3b6c_,360,480,720,1080,1440,p.mp4.urlset/master.m3u8",
       title: "No mess, real protection",
       quote: "We love that GoNano didn't change how our roof looked—but still gave us real protection. No mess, no smell, just clean work and great service.",
       author: "Rich & Denise",
@@ -151,7 +151,7 @@ const TestimonialsSection = () => {
     },
     {
       id: 2,
-      videoUrl: "https://example.com/video2.mp4",
+      videoUrl: "https://content.apisystem.tech/hls/medias/wbwKVz9CXZMVcQrXeB0S/media/transcoded_videos/cts-a35f983d39f4ada4_,360,480,720,1080,1440,p.mp4.urlset/master.m3u8",
       title: "Impressed by the science.",
       quote: "The GoNano team was great. I appreciated how they explained the science behind it, and the fact that it doesn't leave a film on the roof. I'd recommend them to anyone.",
       author: "David Flowers",
@@ -159,7 +159,7 @@ const TestimonialsSection = () => {
     },
     {
       id: 3,
-      videoUrl: "https://example.com/video3.mp4",
+      videoUrl: "https://content.apisystem.tech/hls/medias/wbwKVz9CXZMVcQrXeB0S/media/transcoded_videos/cts-5b7d7d98e4c8c311_,360,480,720,1080,1440,p.mp4.urlset/master.m3u8",
       title: "Skeptic now convinced",
       quote: "I was honestly skeptical at first, but the GoNano team was professional, showed me how it worked, and the results were exactly what they said they'd be. I'm impressed and would absolutely recommend them.",
       author: "Carla",
@@ -169,7 +169,7 @@ const TestimonialsSection = () => {
 
   return (
     <>
-      <section className="bg-gray-50 py-12 md:py-20 px-4 w-full">
+      <section id='testimonials' className="bg-gray-50 py-12 md:py-20 px-4 w-full">
         <div className="max-w-7xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12">

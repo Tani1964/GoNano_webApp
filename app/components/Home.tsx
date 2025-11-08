@@ -1,18 +1,21 @@
+"use client";
 import { DollarSign, MapPin, ThumbsUp } from 'lucide-react';
 import React from 'react';
+import { useEstimate } from "../contexts/EstimateContext";
 import BookEstimateButton from './BookEstimateButton';
 import { VideoPlayer } from './Video';
 
 
 // Home Hero Component
 const HomeHero = () => {
+  const { setOpenEstimate } = useEstimate();
   return (
-    <section className="bg-[#1D1E40] text-white py-32 md:py-32  w-full font-extrabold font-stretch-95% font-sans">
+    <section id='home' className="bg-[#1D1E40] text-white py-32 md:py-32  w-full font-extrabold font-stretch-95% font-sans">
         <div className='flex justify-center align-middle py-4 visible md:hidden'>
             <BookEstimateButton/>
         </div>
         <div className='w-full bg-[#675CE7] px-2 py-2 flex justify-center align-middle items-center my-2 md:mb-20'>
-            <a href="#" className='text-lg underline text-center'>** Pre-qualify for 0% project financing **</a>
+            <a href="#" className='text-lg underline text-center'>** Pre-qualify for project financing **</a>
         </div>
       <div className=" mx-auto px-4">
         {/* Main Heading */}
@@ -38,7 +41,7 @@ const HomeHero = () => {
 
         {/* CTA Button */}
         <div className="text-center mb-12 md:mb-16">
-          <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 md:px-12 py-4 rounded text-base md:text-lg transition-colors">
+          <button onClick={() => setOpenEstimate(true)} className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 md:px-12 py-4 rounded text-base md:text-lg transition-colors">
             GET YOUR FREE ESTIMATE
           </button>
         </div>
@@ -50,7 +53,7 @@ const HomeHero = () => {
             <div className="flex items-center justify-center w-12 h-12 bg-[#8b7dff] rounded-full">
               <DollarSign size={24} />
             </div>
-            <h3 className="font-bold text-lg md:text-xl">0% FINANCING AVAILABLE</h3>
+            <h3 className="font-bold text-lg md:text-xl">FINANCING AVAILABLE</h3>
           </div>
 
           {/* Feature 2 */}

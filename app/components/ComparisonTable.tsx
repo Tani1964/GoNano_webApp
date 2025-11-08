@@ -1,7 +1,10 @@
+"use client";
 import { ArrowRight, Check, X } from 'lucide-react';
 import React from 'react';
+import { useEstimate } from '../contexts/EstimateContext';
 
 const ComparisonTable = () => {
+  const { setOpenEstimate } = useEstimate();
   const comparisonData = [
     {
       feature: "Age of Roof",
@@ -178,7 +181,7 @@ const ComparisonTable = () => {
 
         {/* CTA Button */}
         <div className="text-center">
-          <button className="bg-[#675CE7] hover:bg-[#7a6bef] text-white font-bold px-8 md:px-12 py-4 rounded text-base md:text-lg transition-colors inline-flex items-center gap-2">
+          <button onClick={() => setOpenEstimate(true)} className="bg-[#675CE7] hover:bg-[#7a6bef] text-white font-bold px-8 md:px-12 py-4 rounded text-base md:text-lg transition-colors inline-flex items-center gap-2">
             BOOK YOUR FREE EVALUATION TODAY
             <ArrowRight size={20} />
           </button>

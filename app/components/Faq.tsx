@@ -1,5 +1,6 @@
 "use client"
 import React, { useState } from "react";
+import { useEstimate } from "../contexts/EstimateContext";
 import { concreteTreatmentFAQs } from "../data/faqs/concreteTreatmentFAQs";
 import { generalRoofingFAQs } from "../data/faqs/generalRoofingFAQs";
 import { woodTreatmentFAQs } from "../data/faqs/woodTreatmentFAQs";
@@ -7,8 +8,9 @@ import { FAQSubsection } from "./FAQSubsection";
 
 // Main FAQ Section Component
 const FAQSection = () => {
+  const { setOpenEstimate } = useEstimate();
   return (
-    <section className="bg-gradient-to-b from-[#675CE7] to-[#8b7dff] py-12 md:py-20 w-full">
+    <section id="faqs" className="bg-gradient-to-b from-[#675CE7] to-[#8b7dff] py-12 md:py-20 w-full">
       <div className="max-w-4xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">
@@ -38,7 +40,7 @@ const FAQSection = () => {
 
         {/* CTA Button */}
         <div className="text-center mt-12 md:mt-16">
-          <button className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 md:px-12 py-4 rounded text-base md:text-lg transition-colors">
+          <button onClick={() => setOpenEstimate(true)} className="bg-orange-500 hover:bg-orange-600 text-white font-bold px-8 md:px-12 py-4 rounded text-base md:text-lg transition-colors">
             GOT MORE QUESTIONS?
           </button>
         </div>
