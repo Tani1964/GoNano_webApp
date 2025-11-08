@@ -96,7 +96,7 @@ const ComparisonTable = () => {
     }
   ];
 
-  const renderCell = (value) => {
+  const renderCell = (value: string | boolean): React.ReactNode => {
     if (typeof value === 'boolean') {
       return value ? (
         <Check className="text-green-500 mx-auto" size={24} />
