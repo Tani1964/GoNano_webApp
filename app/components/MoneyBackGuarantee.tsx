@@ -50,7 +50,7 @@ export default function MoneyBackGuarantee() {
         </h2>
         
         <p className="text-center text-base mb-6">
-          Your roof, concrete, and wood surfaces are too important for guesswork.
+          Your roof, and concrete surfaces are too important for guesswork.
         </p>
         
         <p className="text-center text-sm mb-10 leading-relaxed">

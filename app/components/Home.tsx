@@ -23,7 +23,7 @@ const HomeHero = () => {
             DRIVEWAYS, AND DECKS
           </h1>
           <p className="text-base md:text-lg lg:text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
-            Invisible nanotechnology treatments that help roofs, wood, and concrete repel water, resist
+            Invisible nanotechnology treatments that help roofs, and concrete repel water, resist
             damage, and stay looking new—without coatings, films, or harsh chemicals.
           </p>
         </div>

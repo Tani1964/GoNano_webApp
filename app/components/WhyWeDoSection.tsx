@@ -34,7 +34,7 @@ const WhyWeDoSection = () => {
 
   const rightReasons = [
     {
-      title: "Concrete driveways and wood decks were breaking down from the elements.",
+      title: "Concrete driveways and decks were breaking down from the elements.",
       description: "Central Texas sun, storms, and water exposure were shortening the life of high-cost surfaces."
     },
     {

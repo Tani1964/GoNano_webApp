@@ -50,7 +50,7 @@ const Footer = () => {
             <h3 className="font-bold text-gray-900 mb-4">Our Services</h3>
             <ul className="space-y-3 text-sm text-gray-700">
               <li><a href="#roof-water" className="hover:text-[#8b7dff] transition-colors">Roof Water Repellent Treatment</a></li>
-              <li><a href="#wood-deck" className="hover:text-[#8b7dff] transition-colors">Wood Deck & Fence Protection</a></li>
+              <li><a href="#wood-deck" className="hover:text-[#8b7dff] transition-colors">Concrete Deck & Fence Protection</a></li>
               <li><a href="#eco-friendly" className="hover:text-[#8b7dff] transition-colors">Eco-Friendly Surface Treatment</a></li>
               <li><a href="#hydrophobic" className="hover:text-[#8b7dff] transition-colors">Hydrophobic Shingle Coating Alternative</a></li>
             </ul>
@@ -128,7 +128,7 @@ const Footer = () => {
             <h3 className="font-bold text-gray-900 mb-4">Our Services</h3>
             <ul className="space-y-3 text-sm text-gray-700">
               <li><a href="#roof-water" className="hover:text-[#8b7dff] transition-colors">Roof Water Repellent Treatment</a></li>
-              <li><a href="#wood-deck" className="hover:text-[#8b7dff] transition-colors">Wood Deck & Fence Protection</a></li>
+              <li><a href="#wood-deck" className="hover:text-[#8b7dff] transition-colors">Concrete Deck & Fence Protection</a></li>
               <li><a href="#eco-friendly" className="hover:text-[#8b7dff] transition-colors">Eco-Friendly Surface Treatment</a></li>
               <li><a href="#hydrophobic" className="hover:text-[#8b7dff] transition-colors">Hydrophobic Shingle Coating Alternative</a></li>
             </ul>

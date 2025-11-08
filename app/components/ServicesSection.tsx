@@ -20,15 +20,15 @@ export default function ServicesSection() {
       videoBanner: "Cleans & Protects Against",
       labels: ["Algae", "Mold", "Mildew &", "Efflorescence"]
     },
-    {
-      icon: "🪵",
-      title: "WOOD CARE",
-      subtitle: "Decks, fences, pergolas, siding",
-      description: "Safeguard decks, fences, and pergolas from rot, sun damage, and moisture—while preserving their natural look and feel.",
-      videoURL: "https://www.youtube.com/watch?v=RdrMbQB59F8",
-      videoBanner: "Resists staining from Grease, Food & Atmospheric exposure",
-      footer: "Made For - All wood surfaces"
-    }
+    // {
+    //   icon: "🪵",
+    //   title: "WOOD CARE",
+    //   subtitle: "Decks, fences, pergolas, siding",
+    //   description: "Safeguard decks, fences, and pergolas from rot, sun damage, and moisture—while preserving their natural look and feel.",
+    //   videoURL: "https://www.youtube.com/watch?v=RdrMbQB59F8",
+    //   videoBanner: "Resists staining from Grease, Food & Atmospheric exposure",
+    //   footer: "Made For - All wood surfaces"
+    // }
   ];
 
   return (
