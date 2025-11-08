@@ -6,12 +6,18 @@ import { VideoPlayer } from './Video';
 
 // Testimonial Video Card Component
 export const TestimonialCard = ({ 
-  videoUrl, 
   title, 
   quote, 
   author, 
   rating = 5,
   onClick 
+}: {
+  title: string;
+  quote: string;
+  author: string;
+  rating?: number;
+  onClick: () => void;
+  videoUrl?: string;
 }) => {
   return (
     <div 
@@ -98,7 +104,7 @@ export const TestimonialCard = ({
 };
 
 // Video Modal Component
-const VideoModal = ({ videoUrl, isOpen, onClose }) => {
+const VideoModal = ({ videoUrl, isOpen, onClose }: { videoUrl: string | null, isOpen: boolean, onClose: () => void }) => {
   if (!isOpen) return null;
 
   return (
@@ -132,7 +138,7 @@ const VideoModal = ({ videoUrl, isOpen, onClose }) => {
 
 // Main Testimonials Section
 const TestimonialsSection = () => {
-  const [selectedVideo, setSelectedVideo] = useState(null);
+  const [selectedVideo, setSelectedVideo] = useState<string | null>(null);
 
   const testimonials = [
     {

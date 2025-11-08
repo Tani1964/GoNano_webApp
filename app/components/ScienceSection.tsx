@@ -5,7 +5,7 @@ import Image from "next/image";
 import React from "react";
 
 // Science Benefit Card Component
-export const ScienceBenefitCard = ({ icon, title, description }) => {
+export const ScienceBenefitCard = ({ icon, title, description }:{ icon: React.ReactNode, title:string, description:string }) => {
   return (
     <div className="flex flex-col items-center text-center">
       <div className="mb-4">{icon}</div>
@@ -35,7 +35,7 @@ const ScienceSection = () => {
             long-lasting durability without any change in appearance.
           </p>
           <p className="text-base md:text-lg text-white max-w-5xl mx-auto leading-relaxed">
-            It's been certified in the lab, proven in the field, and trusted by
+            It&apos;s been certified in the lab, proven in the field, and trusted by
             thousands of homeowners and property pros across the country.
           </p>
         </div>
@@ -49,7 +49,7 @@ const ScienceSection = () => {
             </h3>
             <p className="text-sm md:text-base leading-relaxed">
               Traditional sealants use large particles that sit on the surface,
-              forming a visible film that wears off over time. GoNano's
+              forming a visible film that wears off over time. GoNano&apos;s
               nano-scale particles penetrate deep into material pores—sealing
               from the inside out.
             </p>
@@ -62,7 +62,7 @@ const ScienceSection = () => {
             </p>
             <p className="text-sm md:text-base leading-relaxed">
               This internal bonding delivers longer-lasting, invisible
-              performance that doesn't peel, yellow, or trap moisture.
+              performance that doesn&apos;t peel, yellow, or trap moisture.
             </p>
 
             {/* Checklist */}
@@ -121,7 +121,7 @@ const ScienceSection = () => {
               Microscopic Proof - Molecular Transformation
             </h3>
             <p className="text-sm md:text-base leading-relaxed">
-              At the microscopic level, GoNano doesn't just coat the surface—it
+              At the microscopic level, GoNano doesn&apos;t just coat the surface—it
               permanently modifies it.
             </p>
             <p className="text-sm md:text-base leading-relaxed">

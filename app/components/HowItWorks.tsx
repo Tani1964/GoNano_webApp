@@ -2,7 +2,7 @@ import { Calendar } from 'lucide-react';
 import React from 'react';
 
 // Process Step Card Component
-export const ProcessStepCard = ({ number, title, description, benefits }) => {
+export const ProcessStepCard = ({ number, title, description, benefits }:{ number:string, title:string, description:string, benefits:string }) => {
   return (
     <div className="bg-[#7b6dff] text-white rounded-lg p-6 md:p-8 shadow-lg">
       <div className="text-5xl md:text-6xl font-bold text-[#2a2449] mb-4">
