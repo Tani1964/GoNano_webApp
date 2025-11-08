@@ -19,6 +19,16 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Gonano",
   description: "Gonano",
+  icons: {
+    icon: "/images/logo.png", // Remove '../public' - paths are relative to public folder
+    // Optional: add multiple sizes
+    // icon: [
+    //   { url: "/images/logo-16x16.png", sizes: "16x16", type: "image/png" },
+    //   { url: "/images/logo-32x32.png", sizes: "32x32", type: "image/png" },
+    // ],
+    // apple: "/images/apple-touch-icon.png", // For iOS
+    // shortcut: "/images/logo.png",
+  }
 };
 
 export default function RootLayout({
