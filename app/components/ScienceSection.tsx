@@ -20,7 +20,7 @@ export const ScienceBenefitCard = ({ icon, title, description }:{ icon: React.Re
 // Main Science Section Component
 const ScienceSection = () => {
   return (
-    <section className="bg-[#1D1E40] py-12 md:py-20 px-4 w-full">
+    <section id="science" className="bg-[#1D1E40] py-12 md:py-20 px-4 w-full">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">
