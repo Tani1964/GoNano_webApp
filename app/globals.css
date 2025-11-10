@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#mainHome {
+  background-image: linear-gradient(
+      rgba(27, 28, 54, 0.96),
+      rgba(27, 28, 54, 0.96)
+    ),
+    url("https://cdn.prod.website-files.com/622f8ac66d5acb59da6f74ec/6239df4bc9cf700196acc1f2_GONANO_ICON.svg");
+  background-position: 0 0, 0% 50%;
+}

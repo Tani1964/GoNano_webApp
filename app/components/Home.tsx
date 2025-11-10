@@ -1,6 +1,8 @@
 "use client";
 import { DollarSign, MapPin, ThumbsUp } from 'lucide-react';
+import Image from 'next/image';
 import React from 'react';
+import LionsDen from "../../public/images/lionDen.png";
 import { useEstimate } from "../contexts/EstimateContext";
 import BookEstimateButton from './BookEstimateButton';
 import { VideoPlayer } from './Video';
@@ -14,10 +16,11 @@ const HomeHero = () => {
         <div className='flex justify-center align-middle py-4 visible md:hidden'>
             <BookEstimateButton/>
         </div>
-        <div className='w-full bg-[#675CE7] px-2 py-2 flex justify-center align-middle items-center my-2 md:mb-20'>
+        <div className='w-full bg-[#675CE7] px-2 py-2 flex justify-center align-middle items-center my-2 '>
             <a href="https://app.gethearth.com/partners/jolawt-international-inc/jonathan/apply" className='text-lg underline text-center'>** Pre-qualify for project financing **</a>
         </div>
-      <div className=" mx-auto px-4">
+        <Image src={LionsDen} className='w-full h[5vh]'  alt="lion's den" />
+      <div id='mainHome' className=" mx-auto px-4">
         {/* Main Heading */}
         <div className="text-center mb-8 md:mb-12">
           <h2 className="text-sm md:text-base lg:text-lg text-orange-400 font-semibold mb-4">
