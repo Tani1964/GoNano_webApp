@@ -1,7 +1,7 @@
   export const concreteTreatmentFAQs = [
     {
       question: "What's the warranty for GoNano Concrete Saver?",
-      answer: "As of today (5/13/25), GoNano Concrete Saver is backed by a 10-year warranty for properly installed residential and commercial surfaces. It resists water, staining, algae, and weather-related damage while maintaining breathability."
+      answer: "As of today (5/13/25), GoNano Concrete Saver is backed by a 2-year warranty for properly installed residential and commercial surfaces. It resists water, staining, algae, and weather-related damage while maintaining breathability."
     },
     {
       question: "What benefits does the concrete treatment offer?",

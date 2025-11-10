@@ -13,10 +13,11 @@ const WhyGoNanoWorks = () => {
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#2a2449] mb-4">
-            WHY GONANO WORKS
+            WHY GONANO WORKS 
           </h2>
           <p className="text-lg md:text-xl font-semibold text-[#2a2449] mb-4">
-            (When Coatings Don&apos;t)
+            {/* (When Coatings Don&apos;t) */}
+            (where others don&apos;t)
           </p>
           <p className="text-base md:text-lg text-gray-800 max-w-4xl mx-auto leading-relaxed">
             Most sealers sit on top of the surface, wear away fast, and trap moisture underneath. GoNano bonds below the surface to create long-lasting, invisible protection from within.

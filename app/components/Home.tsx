@@ -20,6 +20,9 @@ const HomeHero = () => {
       <div className=" mx-auto px-4">
         {/* Main Heading */}
         <div className="text-center mb-8 md:mb-12">
+          <h2 className="text-sm md:text-base lg:text-lg text-orange-400 font-semibold mb-4">
+            “Hail cracks it. Sun bakes it. Wind lifts it. Granules wash away - and suddenly your roof’s protection is gone. Stop the damage before it starts with GONANO — the rejuvenating treatment that makes your roof stronger, longer.”
+          </h2>
           <h1 className="text-2xl md:text-3xl lg:text-6xl font-extrabold mb-6 leading-18 ">
             MOLECULAR PROTECTION FOR ROOFS,
             <br />
