@@ -8,6 +8,7 @@ import MoneyBackGuarantee from "./components/MoneyBackGuarantee";
 import ScienceSection from "./components/ScienceSection";
 import ServicesSection from "./components/ServicesSection";
 import TestimonialsSection from "./components/TestimonialsSection";
+import WeatherHero from "./components/WeatherHero";
 import WhyGoNanoWorks from "./components/WhyGoNanoWorks";
 import WhyWeDoSection from "./components/WhyWeDoSection";
 
@@ -21,6 +22,7 @@ export default function Home() {
       <ServicesSection/>
       <ComparisonTable/>
       <ScienceSection/>
+      <WeatherHero/>
       <TestimonialsSection/>
       <FinancingBanner/>
       <MoneyBackGuarantee/>
