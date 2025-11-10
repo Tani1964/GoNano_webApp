@@ -55,6 +55,12 @@ const Nav = () => {
               Why It Works
             </a>
             <a
+              href="#testimonials"
+              className="text-white hover:bg-[#8b7dff] transition-colors p-2"
+            >
+              Testimonials
+            </a>
+            <a
               href="#services"
               className="text-white hover:bg-[#8b7dff] transition-colors p-2"
             >
@@ -136,6 +142,12 @@ const Nav = () => {
                 className="hover:text-[#8b7dff] transition-colors"
               >
                 Why It Works
+              </a><a
+                href="#testimonials"
+                onClick={toggleMenu}
+                className="hover:text-[#8b7dff] transition-colors"
+              >
+                Testimonials
               </a>
               <a
                 href="#services"
