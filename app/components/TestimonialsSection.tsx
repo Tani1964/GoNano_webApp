@@ -165,14 +165,14 @@ const TestimonialsSection = () => {
       author: "Carla",
       rating: 5
     },
-    // {
-    //   id: 4,
-    //   videoUrl: "https://youtu.be/iqO8XKxVcfs",
-    //   title: "Skeptic now convinced",
-    //   quote: "I was honestly skeptical at first, but the GoNano team was professional, showed me how it worked, and the results were exactly what they said they'd be. I'm impressed and would absolutely recommend them.",
-    //   author: "Carla",
-    //   rating: 5
-    // },
+    {
+      id: 4,
+      videoUrl: "https://youtu.be/dJxgA4EeIb0",
+      title: "Skeptic now convinced",
+      quote: "We had GoNano Placed on our roof, then just about two weeks later we had a hail storm that came through. We had no damage to our roof at all. We felt very protected and recommended it to our neighbors.",
+      author: "Shauna Steel",
+      rating: 5
+    },
     // {
     //   id: 5,
     //   videoUrl: "https://youtube.com/shorts/jLWVViPlNNY",
