@@ -25,6 +25,8 @@ const Footer = () => {
               </svg>
               <span className="text-2xl font-bold text-gray-900">gonano</span>
             </div> */}
+            <div className="bg-[#1D1E40] flex justify-center align-middle items-center">
+
             <Image
                 src={Logo}
                 alt="Water beading on treated surface"
@@ -33,6 +35,7 @@ const Footer = () => {
                 height={150}
                 priority
               />
+            </div>
             <p className="text-sm text-gray-700 leading-relaxed">
               Molecular-level protection for roofs, wood, and concrete. Invisible nanotech treatments that extend the life of your surfaces—without coatings, mess, or disruption.
             </p>
@@ -111,6 +114,8 @@ const Footer = () => {
               </svg>
               <span className="text-2xl font-bold text-gray-900">gonano</span>
             </div> */}
+            <div className="bg-[#1D1E40] flex justify-center align-middle items-center">
+
             <Image
                 src={Logo}
                 alt="Water beading on treated surface"
@@ -119,6 +124,7 @@ const Footer = () => {
                 height={150}
                 priority
               />
+            </div>
             <p className="text-sm text-gray-700 leading-relaxed px-4">
               Molecular-level protection for roofs, wood, and concrete. Invisible nanotech treatments that extend the life of your surfaces—without coatings, mess, or disruption.
             </p>
