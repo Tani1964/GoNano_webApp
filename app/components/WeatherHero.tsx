@@ -3,6 +3,7 @@ import Image from 'next/image';
 import React from 'react';
 import Storm from "../../public/images/storm.png";
 import { useEstimate } from '../contexts/EstimateContext';
+import { VideoPlayer } from './Video';
 
 const WeatherHero = () => {
       const { setOpenEstimate } = useEstimate();
@@ -55,7 +56,7 @@ const WeatherHero = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <Image
             
-            className="w-full h-auto object-cover"
+            className="w-full h-auto object-cover m-4"
             width={800}
             height={80}
                 src={Storm}
@@ -63,6 +64,7 @@ const WeatherHero = () => {
               />
               {/* Dark overlay for dramatic effect */}
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/50 to-transparent"></div>
+              <VideoPlayer className='h-100 m-4' url={"https://youtube.com/shorts/kIq8tZfVDVQ"}/>
             </div>
             
             {/* Decorative elements */}
