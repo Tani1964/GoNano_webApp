@@ -171,11 +171,11 @@ const Footer = () => {
                 <p className="font-semibold text-gray-900 mb-2">Serving:</p>
                 <ul className="space-y-1 text-gray-700">
                   <li>• Pflugerville, Texas.</li>
-                  <li>• Dripping Springs</li>
-                  <li>• Kyle</li>
-                  <li>• Buda</li>
-                  <li>• Lockhart</li>
-                  <li>• Driftwood</li>
+                  <li>• Taylor</li>
+                  <li>• Manor</li>
+                  <li>• Hutto</li>
+                  <li>• Elgin</li>
+                  {/* <li>• Driftwood</li> */}
                 </ul>
               </div>
             </div>
