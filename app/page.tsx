@@ -5,6 +5,7 @@ import FinancingBanner from "./components/FinancingBanner";
 import HomeHero from "./components/Home";
 import HowItWorks from "./components/HowItWorks";
 import MoneyBackGuarantee from "./components/MoneyBackGuarantee";
+import NanoCoatingLanding from "./components/NanoCoatingLanding";
 import ScienceSection from "./components/ScienceSection";
 import ServicesSection from "./components/ServicesSection";
 import TestimonialsSection from "./components/TestimonialsSection";
@@ -22,6 +23,7 @@ export default function Home() {
       <ServicesSection/>
       <ComparisonTable/>
       <ScienceSection/>
+      <NanoCoatingLanding/>
       <WeatherHero/>
       <TestimonialsSection/>
       <FinancingBanner/>
