@@ -43,7 +43,7 @@ export default function ServicesSection() {
             SERVICES WE OFFER
           </h2>
           <p className="text-center text-xl text-[#1a1d3a] font-semibold mb-4">
-            (What We Treat)
+            (Treatment options)
           </p>
           <p className="text-center text-lg text-[#1a1d3a] mb-16 max-w-5xl mx-auto">
             We apply science-backed nanotech to protect the key surfaces around your home—helping them last longer with less maintenance.
@@ -86,7 +86,7 @@ export default function ServicesSection() {
           SERVICES WE OFFER
         </h2>
         <p className="text-center text-lg text-[#1a1d3a] font-semibold mb-3">
-          (What We Treat)
+          (Treatment options)
         </p>
         <p className="text-center text-sm text-[#1a1d3a] mb-12 leading-relaxed">
           We apply science-backed nanotech to protect the key surfaces around your home—helping them last longer with less maintenance.
