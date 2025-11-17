@@ -20,8 +20,8 @@ const HomeHero = () => {
             <a href="https://app.gethearth.com/partners/jolawt-international-inc/jonathan/apply" className='text-lg underline text-center'>** Pre-qualify for project financing **</a>
         </div>
         <Image src={LionsDen} className='w-full h[5vh]'  alt="lion's den" />
-        <h3 className='text-center text-base md:text-xl lg:text-2xl font-semibold mt-2 px-4'>AND</h3>
-        <h2 className='text-center text-2xl md:text-4xl lg:text-5xl font-extrabold mb-8 px-4'>CADANA&apos;S SHARK TANK</h2>
+        {/* <h3 className='text-center text-base md:text-xl lg:text-2xl font-semibold mt-2 px-4'>AND</h3> */}
+        <h2 className='text-center text-2xl md:text-4xl lg:text-5xl font-extrabold mb-8 px-4'>(CADANA&apos;S SHARK TANK)</h2>
       <div id='mainHome' className=" mx-auto px-4">
         {/* Main Heading */}
         <div className="text-center mb-8 md:mb-12">
