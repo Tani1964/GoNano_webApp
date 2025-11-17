@@ -1,7 +1,9 @@
 'use client';
 
+import emailjs from 'emailjs-com';
 import React, { useState } from 'react';
 import { useEstimate } from '../contexts/EstimateContext';
+
 
 export function QuoteRequestOverlay() {
   const { openEstimate, setOpenEstimate } = useEstimate();
@@ -33,11 +35,41 @@ export function QuoteRequestOverlay() {
     }));
   };
 
-  const handleSubmit = () => {
-    console.log('Form submitted:', formData);
-    // Add your form submission logic here
-    // e.g., send to API endpoint
+  const handleSubmit = async () => {
+  const templateParams = {
+    firstName: formData.firstName,
+    lastName: formData.lastName,
+    phone: formData.phone,
+    email: formData.email,
+    propertyType: formData.propertyType,
+    surface: formData.surface,
+    roofAge: formData.roofAge,
+    financing: formData.financing,
+    referralSource: formData.referralSource,
+    address: formData.address,
+    message: formData.message,
+    transactionalConsent: formData.transactionalConsent ? "Yes" : "No",
+    marketingConsent: formData.marketingConsent ? "Yes" : "No",
   };
+
+  try {
+    const response = await emailjs.send(
+      "service_pxhqcbr",// service_id
+      "template_1es6yij",//template_id
+      templateParams,
+      "lS3yLvZmuOSszc2kt"//public_key
+    );
+
+    console.log("Email successfully sent!", response.status, response.text);
+    alert("Your request has been submitted successfully!");
+
+    setOpenEstimate(false);
+  } catch (error) {
+    console.error("Email sending failed:", error);
+    alert("There was an error submitting your request. Please try again.");
+  }
+};
+
 
   return (
     <div onClick={() => setOpenEstimate(false)} className="fixed inset-0 z-50 top-0 flex items-center justify-center bg-black/60 backdrop-blur-sm p-4 overflow-y-scroll h-full">
