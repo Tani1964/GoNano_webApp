@@ -54,10 +54,10 @@ export function QuoteRequestOverlay() {
 
   try {
     const response = await emailjs.send(
-      "service_pxhqcbr",// service_id
-      "template_1es6yij",//template_id
+      process.env.EMAIL_JS_SERVICE_ID||"",// service_id
+      process.env.EMAIL_JS_TEMPLATE_ID||"",//template_id
       templateParams,
-      "lS3yLvZmuOSszc2kt"//public_key
+      process.env.EMAIL_JS_PUBLIC_KEY//public_key
     );
 
     console.log("Email successfully sent!", response.status, response.text);
