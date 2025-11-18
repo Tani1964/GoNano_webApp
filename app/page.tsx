@@ -8,6 +8,7 @@ import MoneyBackGuarantee from "./components/MoneyBackGuarantee";
 import NanoCoatingLanding from "./components/NanoCoatingLanding";
 import ScienceSection from "./components/ScienceSection";
 import ServicesSection from "./components/ServicesSection";
+import TestedAndProven from "./components/TestedAndProven";
 import TestimonialsSection from "./components/TestimonialsSection";
 import WeatherHero from "./components/WeatherHero";
 import WhyGoNanoWorks from "./components/WhyGoNanoWorks";
@@ -25,6 +26,7 @@ export default function Home() {
       <ScienceSection/>
       <NanoCoatingLanding/>
       <WeatherHero/>
+      <TestedAndProven/>
       <TestimonialsSection/>
       <FinancingBanner/>
       <MoneyBackGuarantee/>
