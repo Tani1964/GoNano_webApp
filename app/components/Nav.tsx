@@ -1,5 +1,6 @@
 "use client";
 import Logo from "@/public/images/logo.png";
+import NuRoof from "@/public/images/nuroof.png";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import React, { useState } from "react";
@@ -37,7 +38,15 @@ const Nav = () => {
               height={70}
               priority
             />
-            <span className="text-3xl font-bold">PF-Nano</span>
+            <Image
+              src={NuRoof}
+              alt="NuRoof"
+              className=" rounded-lg "
+              width={150}
+              height={70}
+              priority
+            />
+            {/* <span className="text-3xl font-bold">PF-Nano</span> */}
           </div>
 
           {/* Desktop Navigation Links */}
