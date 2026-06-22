@@ -76,9 +76,9 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-gray-900 mb-4">Contact & Coverage</h3>
             <div className="space-y-3 text-sm">
-              <a href="tel:+1 (512) 538-4801" className="flex items-center gap-2 text-gray-700 hover:text-[#8b7dff] transition-colors">
+              <a href="tel:+1 (737) 355-5054" className="flex items-center gap-2 text-gray-700 hover:text-[#8b7dff] transition-colors">
                 <Phone size={16} />
-                +1 (512) 538-4801
+                +1 (737) 355-5054
               </a>
               <a href="mailto:info@jolawtinternational.com" className="flex items-center gap-2 text-[#8b7dff] hover:text-[#7a6bef] transition-colors">
                 <Mail size={16} />
@@ -165,9 +165,9 @@ const Footer = () => {
           <div className="text-center">
             <h3 className="font-bold text-gray-900 mb-4">Contact & Coverage</h3>
             <div className="space-y-3 text-sm">
-              <a href="tel:+1 (512) 538-4801" className="flex items-center justify-center gap-2 text-gray-700 hover:text-[#8b7dff] transition-colors">
+              <a href="tel:+1 (737) 355-5054" className="flex items-center justify-center gap-2 text-gray-700 hover:text-[#8b7dff] transition-colors">
                 <Phone size={16} />
-                +1 (512) 538-4801
+                +1 (737) 355-5054
               </a>
               <a href="mailto:info@jolawtinternational.com" className="flex items-center justify-center gap-2 text-[#8b7dff] hover:text-[#7a6bef] transition-colors">
                 <Mail size={16} />
